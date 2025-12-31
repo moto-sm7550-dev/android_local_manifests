@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote -->
+  <remote name="moto-sm7550-dev" fetch="https://github.com/moto-sm7550-dev" revision="sixteen" />
+
+  <!-- device -->
+  <project path="device/motorola/eqe" name="android_device_motorola_eqe" remote="moto-sm7550-dev" />
+  <project path="device/qcom/wfd" name="android_device_qcom_wfd" remote="moto-sm7550-dev" />
+
+  <!-- hardware -->
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="moto-sm7550-dev" />
+
+  <!-- vendor -->
+  <project path="vendor/motorola/eqe" name="proprietary_vendor_motorola_eqe" remote="moto-sm7550-dev" />
+  <project path="vendor/qcom/wfd" name="proprietary_vendor_qcom_wfd" remote="moto-sm7550-dev" />
+
+  <!-- kernel -->
+  <project path="kernel/motorola/sm7550" name="android_kernel_motorola_sm7550" remote="moto-sm7550-dev" />
+  <project path="kernel/motorola/sm7550-devicetrees" name="android_kernel_motorola_sm7550-devicetrees" remote="moto-sm7550-dev" />
+  <project path="kernel/motorola/sm7550-modules" name="android_kernel_motorola_sm7550-modules" remote="moto-sm7550-dev" />
+</manifest>
