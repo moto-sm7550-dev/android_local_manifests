@@ -13,7 +13,7 @@
   <!-- vendor -->
   <project path="vendor/motorola/eqe" name="proprietary_vendor_motorola_eqe" remote="moto-sm7550-dev" />
   <project path="vendor/qcom/wfd" name="proprietary_vendor_qcom_wfd" remote="moto-sm7550-dev" />
-  <project path="vendor/lineage-priv/keys" name="android_vendor_lineage-priv_keys" remote="moto-sm7550-dev" />
+  <project path="vendor/private/keys" name="android_vendor_private_keys" remote="moto-sm7550-dev" />
 
   <!-- kernel -->
   <project path="kernel/motorola/sm7550" name="android_kernel_motorola_sm7550" remote="moto-sm7550-dev" />
