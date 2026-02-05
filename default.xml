@@ -9,6 +9,7 @@
 
   <!-- hardware -->
   <project path="hardware/motorola" name="android_hardware_motorola" remote="moto-sm7550-dev" />
+  <project path="hardware/dolby" name="android_hardware_dolby" remote="moto-sm7550-dev" />
 
   <!-- vendor -->
   <project path="vendor/motorola/eqe" name="proprietary_vendor_motorola_eqe" remote="moto-sm7550-dev" />
